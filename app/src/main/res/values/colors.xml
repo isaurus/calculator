@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores principales -->
+    <color name="primary">#1565C0</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="secondary">#FFC107</color>
+    <color name="on_secondary">#000000</color>
+
+    <!-- Colores de fondo -->
+    <color name="background">#FAFAFA</color>
+    <color name="on_background">#212121</color>
+
+    <!-- Colores de error -->
+    <color name="error">#D32F2F</color>
+    <color name="on_error">#FFFFFF</color>
+
+
+</resources>

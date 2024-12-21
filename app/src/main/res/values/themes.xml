@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colores del tema -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="backgroundColor">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorError">@color/error</item> <!-- Usamos colorError -->
+        <item name="colorOnError">@color/on_error</item>
+    </style>
+</resources>
+

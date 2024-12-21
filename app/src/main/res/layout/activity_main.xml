@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etScreenNumbers"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:keyboardNavigationCluster="false"
+        android:maxLines="@integer/material_motion_duration_long_1"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.circularreveal.CircularRevealGridLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:columnCount="4"
+        android:rowCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etScreenNumbers">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="AC"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="%"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="C"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="/"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="7"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="8"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="9"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="x"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="4"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton10"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="5"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton11"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="6"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton12"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="-"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton13"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="1"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton14"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="2"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton15"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="3"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton16"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="+"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton17"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="00"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton18"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="0"
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton19"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=","
+            app:cornerRadius="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton20"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="="
+            app:cornerRadius="40dp" />
+
+    </com.google.android.material.circularreveal.CircularRevealGridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
