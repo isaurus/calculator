@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Button_Number_Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/buttonTextLight</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">@color/buttonNumberBackgroundLight</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">26dp</item>
+        <item name="android:layout_margin">10dp</item>
+
+    </style>
+
+    <style name="Button_Number_Dark">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:padding">25dp</item>
+    </style>
+
+    <style name="Button_Oper_Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/buttonTextLight</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">@color/buttonOperBackgroundLight</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">26dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="Button_Oper_Dark">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Button_Orange">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/buttonTextResult</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">@color/buttonResult</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">26dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+</resources>

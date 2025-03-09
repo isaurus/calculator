@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Colors for light theme -->
+    <color name="backgroundLight">#F3F4F6</color>
+    <color name="buttonNumberBackgroundLight">#FFFFFF</color>
+    <color name="buttonOperBackgroundLight">#E6E7EB</color>
+    <color name="buttonTextLight">#000000</color>
+
+    <!-- Colors for dark theme -->
+    <color name="backgroundDark">#000000</color>
+    <color name="buttonNumberBackgroundDark">#2E2E2E</color>
+    <color name="buttonOperBackgroundDark">#1E1E1E</color>
+    <color name="buttonTextDark">#FFFFFF</color>
+
+    <color name="buttonResult">#FF7733</color>
+    <color name="buttonTextResult">#FFFFFF</color>
+</resources>
